@@ -1,4 +1,4 @@
-package com.arash691.string;
+package com.arash.ariani.string;
 
 import org.junit.jupiter.api.Test;
 

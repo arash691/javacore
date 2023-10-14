@@ -1,4 +1,4 @@
-package com.arash691.string;
+package com.arash.ariani.string;
 
 import java.util.HashMap;
 import java.util.Map;
