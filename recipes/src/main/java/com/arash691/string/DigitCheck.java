@@ -3,7 +3,7 @@ package com.arash691.string;
 
 import java.util.Objects;
 
-public class DigitCheckTraditional {
+public class DigitCheck {
     public boolean containsOnlyDigitsTraditional(String input) {
         if (input == null) {
             throw new NullPointerException("Input cannot be null");

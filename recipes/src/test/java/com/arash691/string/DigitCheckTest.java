@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class DigitCheckTraditionalTest {
+public class DigitCheckTest {
 
-    private final DigitCheckTraditional digitChecker = new DigitCheckTraditional();
+    private final DigitCheck digitChecker = new DigitCheck();
     @Test
     public void testContainsOnlyDigitsTraditional_WithDigits() {
         assertTrue(digitChecker.containsOnlyDigitsTraditional("12345"));
