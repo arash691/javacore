@@ -7,7 +7,7 @@ When you declare a variable in a programming language like Java, several actions
 - The amount of memory allocated depends on the data type of the variable. Different data types require different amounts of memory.
 
 ## 2. Variable Type and Size
-- The type of the variable (e.g., `int`, `double`, `String`) determines the size and structure of the allocated memory. Each data type has a specific size in bytes.
+- The type of the variable (e.g., `int`, `double`, `boolean`) determines the size and structure of the allocated memory. Each data type has a specific size in bytes.
 
 ## 3. Variable Name and Symbolic Link
 - The variable name serves as a symbolic link or identifier for the memory location where the data is stored.
@@ -36,3 +36,4 @@ age = 25;  // Assigning the value 25 to the variable 'age'
 
 // Declaration and Initialization in one line
 int count = 0;  // This combines both declaration and initialization
+```
