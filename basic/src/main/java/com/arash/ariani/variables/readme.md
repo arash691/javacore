@@ -37,3 +37,64 @@ age = 25;  // Assigning the value 25 to the variable 'age'
 // Declaration and Initialization in one line
 int count = 0;  // This combines both declaration and initialization
 ```
+# What are Type and Variable/Data Type?
+
+## 1. Type
+
+In a general sense, a "type" refers to a classification or category that indicates the nature of an entity. In computer science, this term is commonly used to describe the nature of data and the operations that can be performed on that data.
+
+Programming languages use types to define the kind of values that variables can hold and the operations that can be performed on those values.
+
+## 2. Variable/Data Type
+
+In the context of programming, a "variable type" or "data type" is a specific type assigned to a variable, determining the kind of data the variable can store. For example, in many programming languages, you might declare a variable as an integer type (`int`), a floating-point type (`float` or `double`), a character type (`char`), or a boolean type (`boolean`), among others.
+
+# Java Data Types
+
+Java supports a variety of data types, which can be broadly categorized into two groups: primitive data types and reference data types. Here's a list of the commonly used data types in Java:
+
+## Primitive Data Types:
+
+| Data Type | Size     | Range                          | Precision           |
+|-----------|----------|--------------------------------|---------------------|
+| byte      | 8 bits   | -128 to 127                    | -                   |
+| short     | 16 bits  | -32,768 to 32,767              | -                   |
+| int       | 32 bits  | -2^31 to 2^31 - 1              | -                   |
+| long      | 64 bits  | -2^63 to 2^63 - 1              | -                   |
+| float     | 32 bits  | -                              | 7 decimal digits    |
+| double    | 64 bits  | -                              | 15 decimal digits   |
+| char      | 16 bits  | Unicode characters             | -                   |
+| boolean   | -        | Represents: True or False       | -                   |
+
+## Reference Data Types:
+
+| Data Type      | Represents                          | Characteristics                                         |
+|----------------|-------------------------------------|---------------------------------------------------------|
+| String         | Sequences of characters             | Immutable: Once created, the content cannot be changed. |
+| Arrays         | Homogeneous collections of elements | Indexed from 0 to length-1.                             |
+| Classes        | User-defined types                  | Instantiated using the `new` keyword.                   |
+| Interfaces     | Contracts for implementing classes  | Implemented using the `implements` keyword.             |
+| Enums          | Enumeration types                   | Used for defining a fixed set of constants.             |
+| Custom Objects | Instances of user-defined classes   | -                                                       |
+
+### Characteristics:
+
+- **Primitive Data Types:**
+    - Stored directly in memory.
+    - Faster access and less memory consumption.
+    - Value types (hold actual values).
+
+- **Reference Data Types:**
+    - Store references to objects in memory.
+    - Slower access and more memory consumption.
+    - Object types (hold references to memory locations).
+
+- **Immutable Types:**
+    - Some types, like String, are immutable. Once created, their values cannot be changed.
+
+- **Array Types:**
+    - Can be of any data type, including other arrays.
+    - Indexed from 0 to length-1.
+
+- **Object Types:**
+    - Custom objects, classes, and interfaces are used for creating complex data structures.
